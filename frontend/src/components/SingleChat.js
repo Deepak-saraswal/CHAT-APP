@@ -16,7 +16,7 @@ import { ProfileModal } from "../components/Authentication/miscellaneous/Profile
 import { UpdateGroupChatModal } from "../components/Authentication/miscellaneous/UpdateGroupChatModal"
 import "./styles.css";
 
-const ENDPOINT = "http://localhost:5000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://chat-app-3r16.onrender.com/"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 
