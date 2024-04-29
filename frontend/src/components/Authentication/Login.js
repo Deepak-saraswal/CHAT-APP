@@ -2,7 +2,8 @@ import { Button,FormControl, FormLabel, Input,InputGroup,InputRightElement, VSta
 import React, { useState } from 'react'
 import { useToast } from '@chakra-ui/react';
 import axios from "axios";
-import { useHistory } from "react-router";
+import { useHistory } from "react-router-dom";
+
 
 
 const Login = () => {
